@@ -331,3 +331,5 @@ ASALocalRun/
 /design pattern/design pattern
 /design pattern
 /.gitattributes
+/stringTokenizer/tokenizer.vcxproj
+/stringTokenizer/tokenizer.vcxproj.filters
