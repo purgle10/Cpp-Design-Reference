@@ -32,7 +32,7 @@ public:
 		}
 	}
 private:
-	Singleton() {
+	Singleton() { // setup the constructor private
 
 	}
 	static Singleton *instance;
@@ -173,7 +173,7 @@ class ConcretePrototype : public Prototype {
 private:
 	string filed;
 public:
-	ConcretePrototype(string in_filed) {
+	ConcretePrototype(string in_filed) { // for convinience and elegance, the destructor is not written in this cpp example
 		filed = in_filed;
 	}
 
