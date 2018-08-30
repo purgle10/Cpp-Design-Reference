@@ -1,0 +1,17 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// file:	base64Code.h
+//
+// summary:	base64 encode and decode
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma once
+
+#include<string>
+class Base64Code {
+private:
+	static const std::string baseString;
+public:
+	static std::string encode(const std::string& s);
+	static std::string decode(const std::string& s);
+private:
+
+};
